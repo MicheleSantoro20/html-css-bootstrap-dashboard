@@ -1,6 +1,5 @@
 /*   DEBUG   */
 .debug header .container-fluid {
-    background-color: red;
     height: 80px;
 }
 .debug header .container-fluid .row {
@@ -36,7 +35,29 @@
 }
 
 /*   HEADER   */
+.ms_search_bar {
+    width: 88%;
+    display: inline;
+    border: none;
+}
 
+.ms_logo_mobile {
+    width: 50px;
+    padding: 0px;
+}
+
+.ms_logo_col {
+    padding: 0px;
+}
+
+.ms_header_container {
+    height: 80px; 
+
+}
+
+.ms_bell {
+    color: orange;
+}
 
 /*   MAIN   */
 main {
