@@ -1,4 +1,4 @@
-/*   DEBUG   */
+--/*   DEBUG   */
 .debug header .container-fluid {
     height: 80px;
 }
@@ -14,6 +14,7 @@
     background-color: yellow;
 }
 
+/*
 .debug .ms_next_class {
     background-color: green;
 }
@@ -23,16 +24,18 @@
     background-color: pink;
 }
 
+
 .debug .ms_todo {
     height: 300px;
     background-color: purple;
 }
 
+
 .debug .ms_utenti_attivi {
     height: 300px;
     background-color: lightcoral;
 }
-
+*/
 
 /* BODY */
 
@@ -82,14 +85,7 @@ main {
     z-index: 1;
 }
 
-
-.ms_aside_container {
-    
-    background-color: ;
-}
-
 .ms_aside_size {
-    background-image: url(C:\Users\mike2\Desktop\BooleanCareers\Esercizi\html-css-bootstrap-dashboard\img\sidebar-bg.png);
 
     background-color: #051e34;
     min-width: 55px;
@@ -114,6 +110,16 @@ main {
     height: 120px;
 }
 
+.ms_next_class {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.ms_next_class h1 {
+    padding: 10px;
+    border-bottom: 1px solid lightgray
+}
+
 .ms_first_col_width {
     width: auto;
 }
@@ -124,10 +130,74 @@ main {
 }
 
 
-
 .table td {
     text-align: center;
 }
+
+.table .ms_state_btn {
+    font-size: 12px;
+    padding: 3px;
+}
+
+.table .btn-outline-secondary {
+    padding: 3px 6px;
+}
+
+.ms_faq {
+    margin-top: 65px;
+    padding: 10px 15px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.accordion {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.ms_todo {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.ms_todo_checkbox {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.ms_todo h1 {
+    border-bottom: 1px solid lightgray;
+    padding-left: 10px;
+}
+
+
+.ms_check_border{
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+}
+
+.ms_stats {
+    width: 100%;
+}
+
+.ms_utenti_attivi {
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.ms_utenti_attivi ul li {
+    list-style: none;
+    margin: 0px;
+}
+
+.ms_bordo_utenti_attivi {
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    
+
+
 
 /*    RESPONSIVE    */
 
@@ -141,16 +211,16 @@ main {
 }
 
 
-@media all and (min-width: 768px;) {
+@media all and (min-width: 768px) {
 
 }
 
 
-@media all and (min-width: 992px;) {
+@media all and (min-width: 992px) {
 
 }
  
 
-@media all and (min-width: 1200px;) {
+@media all and (min-width: 1200px) {
 
 }
