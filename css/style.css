@@ -89,7 +89,7 @@ main {
 }
 
 .ms_aside_size {
-    background-image: url(C:\Users\mike2\Desktop\Boolean Careers\Esercizi\html-css-bootstrap-dashboard\img\sidebar-bg.png);
+    background-image: url(C:\Users\mike2\Desktop\BooleanCareers\Esercizi\html-css-bootstrap-dashboard\img\sidebar-bg.png);
 
     background-color: #051e34;
     min-width: 55px;
@@ -114,11 +114,20 @@ main {
     height: 120px;
 }
 
-.ms_col_width {
-    width: 50%;
+.ms_first_col_width {
+    width: auto;
+}
+
+.ms_other_col_width {
+    width: 109px;
+    text-align: center;
 }
 
 
+
+.table td {
+    text-align: center;
+}
 
 /*    RESPONSIVE    */
 
