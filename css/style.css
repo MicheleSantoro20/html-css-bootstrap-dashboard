@@ -11,7 +11,7 @@
 }
 
 .debug .head-main-content {
-    background-color: yellow;
+    background-color: rgb(55, 0, 255);
 }
 
 /*
@@ -96,6 +96,10 @@ main {
 
 
 /*   MAIN-CONTENT */
+
+.offcanvas.offcanvas-end {
+    width: 100%;
+}
 
 .ms_container {
     height: 100%;
@@ -197,7 +201,7 @@ main {
     border-radius: 10px;
     
 
-
+}
 
 /*    RESPONSIVE    */
 
@@ -217,6 +221,10 @@ main {
 
 
 @media all and (min-width: 992px) {
+
+    .offcanvas.offcanvas-end {
+        max-width: 40%;
+    }
 
 }
  
