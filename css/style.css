@@ -11,7 +11,7 @@
 }
 
 .debug .head-main-content {
-    background-color: rgb(55, 0, 255);
+    background-color: #1b72e8;
 }
 
 /*
@@ -94,8 +94,31 @@ main {
     padding: 1rem;
 }
 
+.aside-top a {
+    padding: 5px;
+    transition: all 0.5s;
+
+}
+.aside-bot a {
+    padding: 5px;
+    transition: all 0.5s;
+
+}
+
+.aside-top a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    opacity: 07;
+}
+
+.aside-bot a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    opacity: 07;
+}
+
 
 /*   MAIN-CONTENT */
+
+
 
 .offcanvas.offcanvas-end {
     width: 100%;
