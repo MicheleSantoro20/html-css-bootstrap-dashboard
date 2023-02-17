@@ -156,6 +156,9 @@ main {
     text-align: center;
 }
 
+.table tr th img {
+    width: 30px;
+}
 
 .table td {
     text-align: center;
